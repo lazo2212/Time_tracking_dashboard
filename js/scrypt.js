@@ -19,9 +19,9 @@ window.addEventListener(
           </div>
           <div class="time-container">
             <h3>${element.title}</h3>
-            <span>${element.timeframes.weekly.current}</span>
+            <span>${element.timeframes.weekly.current}hrs</span>
             <img src="./images/icon-ellipsis.svg" alt="" />
-            <span>Previous - ${element.timeframes.weekly.previous}</span>
+            <span>Last Week - ${element.timeframes.weekly.previous}hrs</span>
           </div>
           `;
 
