@@ -107,10 +107,14 @@ body {
           font-size: 0.9rem;
           font-weight: $font-weight-400;
           color: $neutral-desaturated-blue;
+
+          &.selected {
+            color: $neutral-pale-blue;
+          }
         }
 
         li:hover {
-          color: $neutral-pale-blue; //to
+          color: $neutral-pale-blue;
         }
       }
     }
